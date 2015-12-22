@@ -1,0 +1,63 @@
+Commands:
+
+Modes: Insert, Normal, Visual
+	- Insert: Normal text editing
+		enter: i, I, s, S
+		exit : esc
+	- Command:
+		enter:
+		exit :
+
+Find next occurence of the word under cursor with		: *
+	 previous											: #
+
+Go to beginning of the file								: gg
+   to end of file										: G
+
+Jump to specific line 									: <number> G
+
+Search text												: / <text>
+Repeat search for next occurrence						: n
+				  previous occurrences					: N
+
+Insert text into a new line (changes to insert mode)	: o or O
+Delete character under the cursor						: x
+Delete character to the left of cursor					: X
+
+Replace character under cursor without insert mode		: r <new char>
+Delete command											: d
+	Combinations to delete
+	- Delete first word									: dw 
+	* It also copies content, so you can paste it with	: p
+	- Delete 2 words									: d2e
+
+Repeat previous command									: .
+Undo													: u
+Redo													: Ctrl R
+
+VISUAL MODE
+You select text using movement keys						: h, j, k, l
+Delete with 											: d
+Select word with										: e
+
+
+
+TEXT:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when took a galley of type and scrambled the leap into electronic typesetting,
+unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing 
+Lorem Ipsum passages, and more recently with desktop publishing software like 
+Aldus PageMaker including versions of Lorem Ipsum.
+
+
+
+
+
+
+
+
+
+
+
